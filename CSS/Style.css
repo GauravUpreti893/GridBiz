@@ -10,7 +10,7 @@
     margin:0;
 }
 html{
-    background-color: var(--primary);
+    background-color: #ccc;
     box-sizing: border-box;
     font-family: 'Baloo Bhaijaan 2', cursive;
     line-height: 1.4;
@@ -19,6 +19,7 @@ html{
 /* Outermost  Box*/
 #wrapper{
     margin:3.2rem 3.2rem;
+    /* margin-right:2rem; */
     display:grid;
     grid-gap:1rem;
     box-sizing: border-box;
@@ -106,6 +107,7 @@ html{
     padding-top:2rem;
     padding-bottom:2.1rem;
     transition:all 0.5s ease-in-out 0s;
+    background-color:var(--primary);
 }
 /* .sidebar .btn{
     padding:1rem 2 rem;
@@ -130,6 +132,7 @@ html{
     padding: 2rem 3rem;
     text-align: center;
     transition:all 0.5s ease-in-out 0s;
+    background-color:var(--primary);
 }
 .iconbox h2{
     padding-top:1rem;
@@ -147,6 +150,7 @@ html{
     margin-top:0.4rem;
     grid-template-columns:repeat(2, 1fr);
     box-shadow: var(--shadow);
+    background-color:var(--primary);
 }
 
 #idea img{
