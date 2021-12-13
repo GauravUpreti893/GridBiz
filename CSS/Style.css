@@ -280,8 +280,10 @@ footer{
     .sidebox p{
         font-size: 2.5rem;
     }
-     #idea button a{
+    #idea button{
         display:block;
+        margin:auto;
         width:100%;
+        text-align: center;
     }
 }
