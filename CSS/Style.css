@@ -19,7 +19,7 @@ html{
 /* Outermost  Box*/
 #wrapper{
     margin:3.2rem 3.2rem;
-    /* margin-right:2rem; */
+    justify-content:center;
     display:grid;
     grid-gap:1rem;
     box-sizing: border-box;
